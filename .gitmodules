@@ -1,0 +1,9 @@
+[submodule "repositories/XPlatformer"]
+	path = repositories/XPlatformer
+	url = git@gitlab.com:jrbeverly-xplatformer/XPlatformer.git
+[submodule "repositories/XSamples"]
+	path = repositories/XSamples
+	url = git@gitlab.com:jrbeverly-xplatformer/XSamples.git
+[submodule "repositories/XGameLib"]
+	path = repositories/XGameLib
+	url = git@gitlab.com:jrbeverly-xplatformer/XGameLib.git
