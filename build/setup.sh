@@ -6,6 +6,7 @@ set -e
 # 
 SCRIPT=$(readlink -f "$0")
 DIR="$(dirname $SCRIPT)"
+DIR_ROOT="$(dirname $DIR)"
 
 name=xplatformer
 desktop=ubuntu-minimal
@@ -13,4 +14,4 @@ desktop=ubuntu-minimal
 #
 # Run
 #
-sh $DIR/environments/vagrant-desktop-x11/src/create.sh -n $name -d $desktop
+sh $DIR_ROOT/environments/vagrant-desktop-x11/src/create.sh -n $name -d $desktop

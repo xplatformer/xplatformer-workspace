@@ -7,6 +7,6 @@
 [submodule "repositories/XGameLib"]
 	path = repositories/XGameLib
 	url = git@gitlab.com:jrbeverly/XGameLib.git
-[submodule "environments/vagrant-desktop-x11"]
-	path = environments/vagrant-desktop-x11
+[submodule "repositories/vagrant-desktop-x11"]
+	path = repositories/vagrant-desktop-x11
 	url = git@gitlab.com:jrbeverly/vagrant-desktop-x11.git
