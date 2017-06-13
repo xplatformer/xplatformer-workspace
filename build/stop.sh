@@ -6,8 +6,9 @@ set -e
 # 
 SCRIPT=$(readlink -f "$0")
 DIR="$(dirname $SCRIPT)"
+DIR_ROOT="$(dirname $DIR)"
 
 #
 # Run
 #
-(cd $DIR/environments/vagrant-desktop-x11/src/ && vagrant up)
+(cd $DIR_ROOT/repositories/vagrant-desktop-x11/src/ && vagrant halt)
