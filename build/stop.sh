@@ -11,4 +11,4 @@ DIR_ROOT="$(dirname $DIR)"
 #
 # Run
 #
-(cd $DIR_ROOT/environments/vagrant-desktop-x11/src/ && vagrant halt)
+(cd $DIR_ROOT/repositories/vagrant-desktop-x11/src/ && vagrant halt)

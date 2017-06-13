@@ -14,4 +14,4 @@ desktop=ubuntu-minimal
 #
 # Run
 #
-sh $DIR_ROOT/environments/vagrant-desktop-x11/src/create.sh -n $name -d $desktop
+sh $DIR_ROOT/repositories/vagrant-desktop-x11/src/create.sh -n $name -d $desktop
