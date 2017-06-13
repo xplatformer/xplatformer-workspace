@@ -1,12 +1,12 @@
 [submodule "repositories/XPlatformer"]
 	path = repositories/XPlatformer
-	url = git@gitlab.com:jrbeverly-xplatformer/XPlatformer.git
+	url = git@gitlab.com:jrbeverly/XPlatformer.git
 [submodule "repositories/XSamples"]
 	path = repositories/XSamples
-	url = git@gitlab.com:jrbeverly-xplatformer/XSamples.git
+	url = git@gitlab.com:jrbeverly/XSamples.git
 [submodule "repositories/XGameLib"]
 	path = repositories/XGameLib
-	url = git@gitlab.com:jrbeverly-xplatformer/XGameLib.git
+	url = git@gitlab.com:jrbeverly/XGameLib.git
 [submodule "environments/vagrant-desktop-x11"]
 	path = environments/vagrant-desktop-x11
-	url = https://jrbeverly@gitlab.com/jrbeverly-vagrant-desktop/vagrant-desktop-x11.git
+	url = git@gitlab.com:jrbeverly/vagrant-desktop-x11.git
