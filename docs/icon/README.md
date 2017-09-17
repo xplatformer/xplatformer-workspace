@@ -1,9 +1,11 @@
-# TheNounProject
+# Icon Credits
+## Package
+By [Maxi Koichi](https://thenounproject.com/maxixam), from the Noun Project
 
-## Package By Maxi Koichi, JP
+---
 
-|||
-|---|---|
-|Tags|Package, Box|
-|Source|https://thenounproject.com/term/package/137417/|
-|License|Public Domain|
+* **Tags**: Package, Box
+* **Source**: https://thenounproject.com/term/package/137417/
+* **License**: Public Domain
+
+--
