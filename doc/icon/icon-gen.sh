@@ -4,6 +4,6 @@ set -e
 #
 #
 #
-DIR=$(dirname $(readlink -f "$0"))
+DIR=$(dirname "$(readlink -f "$0")")
 mkdir -p $DIR/images/
 docker run --rm -v $DIR:/media/ jrbeverly/rsvg:baseimage rsvg-iconset -f icon.svg -o images/icon/
