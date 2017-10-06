@@ -1,12 +1,13 @@
 {
-    "name": "<name>",
+    "name": "Package",
     "license": "Public Domain",
-    "url": "<url>",
+    "url": "https://thenounproject.com/term/package/137417/",
     "author": {
-        "name": "<author>",
-        "url": "<author url>"
+        "name": "Maxi Koichi",
+        "url": "https://thenounproject.com/maxixam"
     },
     "tags": [
-        "<tags>"
+        "Package",
+        "Box"
     ]
 }
