@@ -1,7 +1,11 @@
-.DS_Store
-.vagrant
-*.swp
-*.db
+## Editors:
+.vscode/
 
-# Documentation
-doc/**/images/
+## Documentation images:
+docs/**/images/
+
+## Build outputs:
+bin/
+out/
+# Documentation:
+docs/**/images/
