@@ -1,18 +1,9 @@
-![Project icon](icon.png)
-# Package
-By [Maxi Koichi](https://thenounproject.com/maxixam), from the [Noun Project](https://thenounproject.com/term/package/137417/)
+# TheNounProject
 
-The project icon is pulled from 'TheNounProject', and adapted into the flat-circle icon approach.
+## Package By Maxi Koichi, JP
 
-The icon has been altered for the purposes of a project icon.
-
----
 |||
 |---|---|
-|**Title**|Package|
-|**Author**|[Maxi Koichi](https://thenounproject.com/maxixam)|
-|**Source**|https://thenounproject.com/term/package/137417/|
-|**License**|Public Domain|
-|**Tags**|Package, Box|
-
----
+|Tags|Package, Box|
+|Source|https://thenounproject.com/term/package/137417/|
+|License|Public Domain|

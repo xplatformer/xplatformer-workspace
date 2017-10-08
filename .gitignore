@@ -7,5 +7,6 @@ docs/**/images/
 ## Build outputs:
 bin/
 out/
+
 # Documentation:
 docs/**/images/
