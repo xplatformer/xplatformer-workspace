@@ -1,14 +1,14 @@
 #!/bin/sh
 set -e
 
-# 
+#
 # Variables
-# 
-SCRIPT=$(readlink -f "$0")
-DIR="$(dirname $SCRIPT)"
-DIR_ROOT="$(dirname $DIR)"
+#
+DIR=$(dirname "$(readlink -f "$0")")
+DIR_ROOT=$(dirname "$DIR")
+DIR_REPOS="$DIR_ROOT/repositories"
 
 #
-# Run
+# Main
 #
 (cd $DIR_ROOT/repositories/vagrant-desktop-x11/src/ && vagrant destroy -f)
