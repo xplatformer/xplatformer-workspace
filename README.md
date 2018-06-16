@@ -2,14 +2,14 @@
 
 ## Summary
 
-A meta-repository for facilitating development of the XPlatformer when working in a many-repository architecture.
+A meta-repository for facilitating development of the many-repository XPlatformer project.
 
 ## Getting Started
 
-XPlatformer.Workspace is a git-submodules oriented approach for dealing with the multiple repositories of the XPlatformer project (XPlatformer / XGameLib / XSamples). The project provides all the repositories in one, using vagrant-desktop tp provide an X11 development environment. You can clone all the repositories using the `recursive` directive of git as such:
+XPlatformer.Workspace is a git-submodules oriented approach for dealing with the multiple repositories of the XPlatformer project (XPlatformer / XGameLib / XSamples). The project provides all the repositories in one, using vagrant-desktop to provide an X11 development environment. You can clone all the repositories using the `--recursive` directive of git as such:
 
 ```
-git clone --recursive git@gitlab.com:jrbeverly/XPlatformer.Workspace.git
+git clone --recursive git@gitlab:.../XPlatformer.Workspace.git
 ```
 
 Or if the repository has already been cloned, you can use:
@@ -29,6 +29,7 @@ The `.Workspace` architecture aims to provide a way of provisioning a complete e
     * lib
     * build
         * build-all.sh
+        * ...
     * Repositories
         * [r] XPlatformer (git@gitlab/XPlatformer.git)
         * [r] XGameLib (git@gitlab/XGameLib.git)
@@ -39,7 +40,7 @@ The `.Workspace` architecture aims to provide a way of provisioning a complete e
     * README.md
 ```
 
-The `XPlatformer.Workspace` is a modified version of this where the environments directory is merged with the repository directory to simplify the code.
+The `XPlatformer.Workspace` is a modified version of the proposed architecture where the environments and repositories directories are merged. This is done to simplify the working environment.
 
 ## Acknowledgements
 
