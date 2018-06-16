@@ -1,12 +1,9 @@
-## Editors:
+# Editors
 .vscode/
 
-## Documentation images:
+# Documentation images
 docs/**/images/
 
-## Build outputs:
+# Build outputs
 bin/
 out/
-
-# Documentation:
-docs/**/images/
