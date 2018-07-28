@@ -8,22 +8,22 @@ A meta-repository for facilitating development of the many-repository XPlatforme
 
 XPlatformer-Workspace is a git-submodules oriented approach for dealing with the multiple repositories of the XPlatformer project (XPlatformer / XGameLib / XSamples). The project provides all the repositories in one, using vagrant-desktop to provide an X11 development environment. You can clone all the repositories using the `--recursive` directive of git as such:
 
-```
+```bash
 git clone --recursive git@gitlab:.../XPlatformer-Workspace.git
 ```
 
 Or if the repository has already been cloned, you can use:
 
-```
+```bash
 git submodule init
 git submodule update
 ```
 
 ### Usage
 
-The `Workspace` architecture aims to provide a way of provisioning a complete environment for working with multiple repositories. The desired architecture of the meta-project is specified below: 
+The `Workspace` architecture aims to provide a way of provisioning a complete environment for working with multiple repositories. The desired architecture of the meta-project is specified below:
 
-```
+```bash
 * Repository
     * bin
     * lib
