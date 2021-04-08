@@ -1,0 +1,15 @@
+slug: xplatformer-workspace
+description: A meta-repository for facilitating development of the many-repository XPlatformer project.
+project: xplatformer
+namespace: archive
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2017
+topics: |-
+  [
+    "x11",
+    "platformer"
+  ]
